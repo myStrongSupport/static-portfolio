@@ -1,0 +1,44 @@
+.proL {
+  padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.proL-texts {
+  width: 65%;
+  margin: auto;
+}
+
+.proL-texts h3 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.proL-texts p {
+  margin: 20px 0;
+}
+
+.proL-list {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 605px) {
+  .proL {
+    padding: 90px 30px !important;
+  }
+
+  .proL-texts h3 {
+    font-size: 35px !important;
+  }
+  .pro {
+    width: 80% !important;
+    margin: 30px auto !important;
+    height: 40vh !important;
+  }
+}
